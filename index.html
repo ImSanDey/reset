@@ -34,7 +34,7 @@
       const email = form.email.value.trim()
 
       const { error } = await supabase.auth.resetPasswordForEmail(email, {
-        redirectTo: 'https://tusitio.com/cambiar-password' // ← cambia según tu app Flutter
+        redirectTo: 'https://wonderful-baklava-d6dc5a.netlify.app' // ← cambia según tu app Flutter
       })
 
       if (error) {
